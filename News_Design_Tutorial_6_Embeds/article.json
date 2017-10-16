@@ -61,6 +61,7 @@
     {
       "role": "section",
       "layout": "fullBleedLayout",
+      "style": "bodyBackgroundStyle",
       "components": [
         {
           "role": "heading1",
@@ -384,6 +385,9 @@
   "componentStyles": {
     "captionBarBackgroundStyle": {
       "backgroundColor": "#000"
+    },
+    "bodyBackgroundStyle": {
+      "backgroundColor": "#F5F9FB"
     }
   },
   "componentTextStyles": {
