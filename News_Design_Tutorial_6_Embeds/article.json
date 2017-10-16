@@ -34,6 +34,9 @@
           "role": "container",
           "layout": "fullBleedLayout",
           "style": "captionBarBackgroundStyle",
+          "anchor": {
+            "targetAnchorPosition": "bottom"
+          },
           "components": [
             {
               "role": "caption",
