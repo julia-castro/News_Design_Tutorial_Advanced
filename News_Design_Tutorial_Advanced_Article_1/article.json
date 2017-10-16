@@ -39,6 +39,24 @@
           },
           "components": [
             {
+              "role": "heading1",
+              "layout": "heading1Layout",
+              "text": "HEADING"
+            },
+            {
+              "role": "divider",
+              "layout": "bigDividerLayout",
+              "stroke": {
+                "width": 3,
+                "color": "#D5B327"
+              }
+            },
+            {
+              "role": "title",
+              "layout": "halfMarginBelowLayout",
+              "text": "ARTICLE TITLE"
+            },
+            {
               "role": "container",
               "layout": "fullBleedLayout",
               "style": "captionBarBackgroundStyle",
@@ -64,26 +82,8 @@
       "style": "bodyBackgroundStyle",
       "components": [
         {
-          "role": "heading1",
-          "layout": "heading1Layout",
-          "text": "HEADING"
-        },
-        {
-          "role": "divider",
-          "layout": "bigDividerLayout",
-          "stroke": {
-            "width": 3,
-            "color": "#D5B327"
-          }
-        },
-        {
-          "role": "title",
-          "layout": "halfMarginBelowLayout",
-          "text": "ARTICLE TITLE"
-        },
-        {
           "role": "intro",
-          "layout": "halfMarginBelowLayout",
+          "layout": "halfMarginBothLayout",
           "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque ipsum?"
         },
         {
