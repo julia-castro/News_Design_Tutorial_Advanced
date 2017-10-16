@@ -41,12 +41,14 @@
             {
               "role": "container",
               "layout": "fullBleedLayout",
+              "style": "scrimBackgroundStyle",
               "anchor": {
                 "targetAnchorPosition": "bottom"
               },
               "components": [
                 {
                   "role": "heading1",
+                  "textStyle": "heading1Light",
                   "layout": "heading1Layout",
                   "text": "HEADING"
                 },
@@ -60,6 +62,7 @@
                 },
                 {
                   "role": "title",
+                  "textStyle": "heading1Light",
                   "layout": "halfMarginBelowLayout",
                   "text": "ARTICLE TITLE"
                 }
@@ -398,6 +401,19 @@
     },
     "bodyBackgroundStyle": {
       "backgroundColor": "#F5F9FB"
+    },
+    "scrimBackgroundStyle": {
+      "fill": {
+        "type": "linear_gradient",
+        "colorStops": [
+          {
+            "color": "#00000000"
+          },
+          {
+            "color": "#00000090"
+          }
+        ]
+      }
     }
   },
   "componentTextStyles": {
@@ -474,6 +490,9 @@
       "textAlignment": "right"
     },
     "captionLight": {
+      "textColor": "#FFF"
+    },
+    "heading1Light": {
       "textColor": "#FFF"
     }
   }
