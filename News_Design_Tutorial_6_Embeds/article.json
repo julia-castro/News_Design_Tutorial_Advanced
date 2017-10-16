@@ -31,9 +31,17 @@
       },
       "components": [
         {
-          "role": "caption",
-          "layout": "halfMarginBothLayout",
-          "text": "ABOVE: Sed ut pers piciatis unde omnis iste error sit volup tatem accusantium dolor emque, totam rem. (Attribution) "
+          "role": "container",
+          "layout": "fullBleedLayout",
+          "style": "captionBarBackgroundStyle",
+          "components": [
+            {
+              "role": "caption",
+              "textStyle": "captionLight",
+              "layout": "halfMarginBothLayout",
+              "text": "ABOVE: Sed ut pers piciatis unde omnis iste error sit volup tatem accusantium dolor emque, totam rem. (Attribution)"
+            }
+          ]
         }
       ]
     },
@@ -354,7 +362,11 @@
       }
     }
   },
-  "componentStyles": {},
+  "componentStyles": {
+    "captionBarBackgroundStyle": {
+      "backgroundColor": "#000"
+    }
+  },
   "componentTextStyles": {
     "default": {
       "fontName": "DINAlternate-Bold",
@@ -427,6 +439,9 @@
       "tracking": 0.12,
       "textColor": "#53585F",
       "textAlignment": "right"
+    },
+    "captionLight": {
+      "textColor": "#FFF"
     }
   }
 }
