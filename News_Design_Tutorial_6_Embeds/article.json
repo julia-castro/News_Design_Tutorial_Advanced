@@ -18,275 +18,287 @@
   },
   "components": [
     {
-      "role": "header",
-      "layout": "headerImageLayout",
-      "style": {
-        "fill": {
-          "type": "image",
-          "URL": "bundle://header.jpg",
-          "fillMode": "cover",
-          "verticalAlignment": "top",
-          "horizontalAlignment": "center"
-        }
-      },
+      "role": "section",
+      "layout": "fullBleedLayout",
       "components": [
         {
-          "role": "container",
-          "layout": "fullBleedLayout",
-          "style": "captionBarBackgroundStyle",
-          "anchor": {
-            "targetAnchorPosition": "bottom"
+          "role": "header",
+          "layout": "headerImageLayout",
+          "style": {
+            "fill": {
+              "type": "image",
+              "URL": "bundle://header.jpg",
+              "fillMode": "cover",
+              "verticalAlignment": "top",
+              "horizontalAlignment": "center"
+            }
           },
           "components": [
             {
-              "role": "caption",
-              "textStyle": "captionLight",
-              "layout": "halfMarginBothLayout",
-              "text": "ABOVE: Sed ut pers piciatis unde omnis iste error sit volup tatem accusantium dolor emque, totam rem. (Attribution)"
+              "role": "container",
+              "layout": "fullBleedLayout",
+              "style": "captionBarBackgroundStyle",
+              "anchor": {
+                "targetAnchorPosition": "bottom"
+              },
+              "components": [
+                {
+                  "role": "caption",
+                  "textStyle": "captionLight",
+                  "layout": "halfMarginBothLayout",
+                  "text": "ABOVE: Sed ut pers piciatis unde omnis iste error sit volup tatem accusantium dolor emque, totam rem. (Attribution)"
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "role": "heading1",
-      "layout": "heading1Layout",
-      "text": "HEADING"
-    },
-    {
-      "role": "divider",
-      "layout": "bigDividerLayout",
-      "stroke": {
-        "width": 3,
-        "color": "#D5B327"
-      }
-    },
-    {
-      "role": "title",
-      "layout": "halfMarginBelowLayout",
-      "text": "ARTICLE TITLE"
-    },
-    {
-      "role": "intro",
-      "layout": "halfMarginBelowLayout",
-      "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque ipsum?"
-    },
-    {
-      "role": "byline",
-      "layout": "fullMarginBelowLayout",
-      "text": "By Urna Semper"
-    },
-    {
-      "role": "divider",
-      "layout": "fullMarginBelowLayout",
-      "stroke": {
-        "width": 1,
-        "color": "#D5B327"
-      }
-    },
-    {
-      "role": "body",
-      "format": "html",
-      "layout": "noMarginLayout",
-      "textStyle": "bodyFirstDropCap",
-      "text": "<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, dolor repellendus. <a href='http://www.apple.com'>Link text</a> quibusdam et aut.</p><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, adipisci velit.</p>"
-    },
-    {
-      "role": "heading2",
-      "layout": "fullMarginAboveHalfBelowLayout",
-      "text": "HEADING"
-    },
-    {
-      "role": "body",
-      "format": "html",
-      "layout": "noMarginLayout",
-      "text": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio ducimus qui blanditiis."
-    },
-    {
-      "role": "divider",
-      "layout": "fullMarginAboveLayout",
-      "stroke": {
-        "width": 1,
-        "color": "#D5B327"
-      }
-    },
-    {
-      "role": "pullquote",
-      "layout": "halfMarginAboveQuarterBelowLayout",
-      "text": "“QUIA CONSEQUUNTUR MAGNI DOLORES EOS QUI RATIONE VOLUPTATEM SEQUI NESCIUNT.”"
-    },
-    {
-      "role": "pullquote",
-      "layout": "halfMarginBelowLayout",
-      "textStyle": "attribution",
-      "text": "— ATTRIBUTION"
-    },
-    {
-      "role": "divider",
-      "layout": "fullMarginBelowLayout",
-      "stroke": {
-        "width": 1,
-        "color": "#D5B327"
-      }
-    },
-    {
-      "role": "body",
-      "format": "html",
-      "layout": "noMarginLayout",
-      "text": "<p>Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer.</p><p>Temporibus autem et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque rerum hic tenetur.</p><p>Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo esciunt enim ipsam voluptatem quia.</p><p>Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis <a href='http://www.apple.com'>link text</a> repellat. Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore.</p><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>"
-    },
-    {
-      "role": "heading2",
-      "layout": "fullMarginAboveHalfBelowLayout",
-      "text": "HEADING"
-    },
-    {
-      "role": "body",
-      "format": "html",
-      "layout": "noMarginLayout",
-      "text": "Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas."
-    },
-    {
-      "role": "heading2",
-      "layout": "fullMarginAboveHalfBelowLayout",
-      "text": "GALLERY HEADING"
-    },
-    {
-      "role": "gallery",
-      "layout": "noMarginLayout",
-      "items": [
+      "role": "section",
+      "layout": "fullBleedLayout",
+      "components": [
         {
-          "URL": "bundle://gallery-01.jpg",
-          "caption": "A caption for the first image in the gallery."
+          "role": "heading1",
+          "layout": "heading1Layout",
+          "text": "HEADING"
         },
         {
-          "URL": "bundle://gallery-02.jpg",
-          "caption": "A caption for the second image in the gallery."
+          "role": "divider",
+          "layout": "bigDividerLayout",
+          "stroke": {
+            "width": 3,
+            "color": "#D5B327"
+          }
         },
         {
-          "URL": "bundle://gallery-03.jpg",
-          "caption": "A caption for the third image in the gallery."
-        }
-      ]
-    },
-    {
-      "role": "caption",
-      "layout": "halfMarginBothLayout",
-      "text": "ABOVE: A caption for the entire gallery. Individual photos in the gallery also have their own captions. (Shared attribution)"
-    },
-    {
-      "role": "divider",
-      "layout": "fullMarginBelowLayout",
-      "stroke": {
-        "width": 1,
-        "color": "#D5B327"
-      }
-    },
-    {
-      "role": "body",
-      "format": "html",
-      "layout": "noMarginLayout",
-      "text": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas est, omnis dolor repellendus."
-    },
-    {
-      "role": "heading2",
-      "layout": "fullMarginAboveHalfBelowLayout",
-      "text": "MOSAIC HEADING"
-    },
-    {
-      "role": "mosaic",
-      "layout": "noMarginLayout",
-      "items": [
-        {
-          "URL": "bundle://mosaic-01.jpg",
-          "caption": "A caption for the first image in the mosaic."
+          "role": "title",
+          "layout": "halfMarginBelowLayout",
+          "text": "ARTICLE TITLE"
         },
         {
-          "URL": "bundle://mosaic-02.jpg",
-          "caption": "A caption for the second image in the mosaic."
+          "role": "intro",
+          "layout": "halfMarginBelowLayout",
+          "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque ipsum?"
         },
         {
-          "URL": "bundle://mosaic-03.jpg",
-          "caption": "A caption for the third image in the mosaic."
+          "role": "byline",
+          "layout": "fullMarginBelowLayout",
+          "text": "By Urna Semper"
         },
         {
-          "URL": "bundle://mosaic-04.jpg",
-          "caption": "A caption for the fourth image in the mosaic."
+          "role": "divider",
+          "layout": "fullMarginBelowLayout",
+          "stroke": {
+            "width": 1,
+            "color": "#D5B327"
+          }
         },
         {
-          "URL": "bundle://mosaic-05.jpg",
-          "caption": "A caption for the fifth image in the mosaic."
-        }
-      ]
-    },
-    {
-      "role": "caption",
-      "layout": "halfMarginBothLayout",
-      "text": "ABOVE: A caption for the entire mosaic. Individual photos in the mosaic also have their own captions. (Shared attribution)"
-    },
-    {
-      "role": "divider",
-      "layout": "noMarginLayout",
-      "stroke": {
-        "width": 1,
-        "color": "#D5B327"
-      }
-    },
-    {
-      "role": "heading2",
-      "layout": "fullMarginAboveHalfBelowLayout",
-      "text": "HEADING"
-    },
-    {
-      "role": "body",
-      "format": "html",
-      "layout": "noMarginLayout",
-      "text": "<p>Consequatur aut doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit volup tatem accusantium doloremque laudantium, totam rem, eaque ipsa quae ab illo inventore veritatis et quasi archit ecto beatae vitae.</p><p>Nemo enim ipsam volup tatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conse quuntur magni. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p><p>Consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit volup tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archit ecto beatae vitae dicta. Nemo enim ipsam volup tatem quia voluptas sit <a href='http://www.apple.com'>link text</a> aut odit aut fugit, sed quia conse quuntur perspiciatis doloribus magni dolores.</p><p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam suscipit laboriosam.</p>"
-    },
-    {
-      "role": "heading2",
-      "layout": "fullMarginAboveHalfBelowLayout",
-      "text": "MAP HEADING"
-    },
-    {
-      "role": "map",
-      "layout": "noMarginLayout",
-      "mapType": "hybrid",
-      "caption": "Map caption",
-      "latitude": 35.065908,
-      "longitude": -109.781623,
-      "span": {
-        "latitudeDelta": 5,
-        "longitudeDelta": 5
-      },
-      "items": [
+          "role": "body",
+          "format": "html",
+          "layout": "noMarginLayout",
+          "textStyle": "bodyFirstDropCap",
+          "text": "<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, dolor repellendus. <a href='http://www.apple.com'>Link text</a> quibusdam et aut.</p><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, adipisci velit.</p>"
+        },
         {
-          "caption": "A caption for this map pin",
+          "role": "heading2",
+          "layout": "fullMarginAboveHalfBelowLayout",
+          "text": "HEADING"
+        },
+        {
+          "role": "body",
+          "format": "html",
+          "layout": "noMarginLayout",
+          "text": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio ducimus qui blanditiis."
+        },
+        {
+          "role": "divider",
+          "layout": "fullMarginAboveLayout",
+          "stroke": {
+            "width": 1,
+            "color": "#D5B327"
+          }
+        },
+        {
+          "role": "pullquote",
+          "layout": "halfMarginAboveQuarterBelowLayout",
+          "text": "“QUIA CONSEQUUNTUR MAGNI DOLORES EOS QUI RATIONE VOLUPTATEM SEQUI NESCIUNT.”"
+        },
+        {
+          "role": "pullquote",
+          "layout": "halfMarginBelowLayout",
+          "textStyle": "attribution",
+          "text": "— ATTRIBUTION"
+        },
+        {
+          "role": "divider",
+          "layout": "fullMarginBelowLayout",
+          "stroke": {
+            "width": 1,
+            "color": "#D5B327"
+          }
+        },
+        {
+          "role": "body",
+          "format": "html",
+          "layout": "noMarginLayout",
+          "text": "<p>Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer.</p><p>Temporibus autem et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque rerum hic tenetur.</p><p>Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo esciunt enim ipsam voluptatem quia.</p><p>Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis <a href='http://www.apple.com'>link text</a> repellat. Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore.</p><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>"
+        },
+        {
+          "role": "heading2",
+          "layout": "fullMarginAboveHalfBelowLayout",
+          "text": "HEADING"
+        },
+        {
+          "role": "body",
+          "format": "html",
+          "layout": "noMarginLayout",
+          "text": "Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas."
+        },
+        {
+          "role": "heading2",
+          "layout": "fullMarginAboveHalfBelowLayout",
+          "text": "GALLERY HEADING"
+        },
+        {
+          "role": "gallery",
+          "layout": "noMarginLayout",
+          "items": [
+            {
+              "URL": "bundle://gallery-01.jpg",
+              "caption": "A caption for the first image in the gallery."
+            },
+            {
+              "URL": "bundle://gallery-02.jpg",
+              "caption": "A caption for the second image in the gallery."
+            },
+            {
+              "URL": "bundle://gallery-03.jpg",
+              "caption": "A caption for the third image in the gallery."
+            }
+          ]
+        },
+        {
+          "role": "caption",
+          "layout": "halfMarginBothLayout",
+          "text": "ABOVE: A caption for the entire gallery. Individual photos in the gallery also have their own captions. (Shared attribution)"
+        },
+        {
+          "role": "divider",
+          "layout": "fullMarginBelowLayout",
+          "stroke": {
+            "width": 1,
+            "color": "#D5B327"
+          }
+        },
+        {
+          "role": "body",
+          "format": "html",
+          "layout": "noMarginLayout",
+          "text": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas est, omnis dolor repellendus."
+        },
+        {
+          "role": "heading2",
+          "layout": "fullMarginAboveHalfBelowLayout",
+          "text": "MOSAIC HEADING"
+        },
+        {
+          "role": "mosaic",
+          "layout": "noMarginLayout",
+          "items": [
+            {
+              "URL": "bundle://mosaic-01.jpg",
+              "caption": "A caption for the first image in the mosaic."
+            },
+            {
+              "URL": "bundle://mosaic-02.jpg",
+              "caption": "A caption for the second image in the mosaic."
+            },
+            {
+              "URL": "bundle://mosaic-03.jpg",
+              "caption": "A caption for the third image in the mosaic."
+            },
+            {
+              "URL": "bundle://mosaic-04.jpg",
+              "caption": "A caption for the fourth image in the mosaic."
+            },
+            {
+              "URL": "bundle://mosaic-05.jpg",
+              "caption": "A caption for the fifth image in the mosaic."
+            }
+          ]
+        },
+        {
+          "role": "caption",
+          "layout": "halfMarginBothLayout",
+          "text": "ABOVE: A caption for the entire mosaic. Individual photos in the mosaic also have their own captions. (Shared attribution)"
+        },
+        {
+          "role": "divider",
+          "layout": "noMarginLayout",
+          "stroke": {
+            "width": 1,
+            "color": "#D5B327"
+          }
+        },
+        {
+          "role": "heading2",
+          "layout": "fullMarginAboveHalfBelowLayout",
+          "text": "HEADING"
+        },
+        {
+          "role": "body",
+          "format": "html",
+          "layout": "noMarginLayout",
+          "text": "<p>Consequatur aut doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit volup tatem accusantium doloremque laudantium, totam rem, eaque ipsa quae ab illo inventore veritatis et quasi archit ecto beatae vitae.</p><p>Nemo enim ipsam volup tatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conse quuntur magni. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p><p>Consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit volup tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archit ecto beatae vitae dicta. Nemo enim ipsam volup tatem quia voluptas sit <a href='http://www.apple.com'>link text</a> aut odit aut fugit, sed quia conse quuntur perspiciatis doloribus magni dolores.</p><p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam suscipit laboriosam.</p>"
+        },
+        {
+          "role": "heading2",
+          "layout": "fullMarginAboveHalfBelowLayout",
+          "text": "MAP HEADING"
+        },
+        {
+          "role": "map",
+          "layout": "noMarginLayout",
+          "mapType": "hybrid",
+          "caption": "Map caption",
           "latitude": 35.065908,
-          "longitude": -109.781623
+          "longitude": -109.781623,
+          "span": {
+            "latitudeDelta": 5,
+            "longitudeDelta": 5
+          },
+          "items": [
+            {
+              "caption": "A caption for this map pin",
+              "latitude": 35.065908,
+              "longitude": -109.781623
+            }
+          ]
+        },
+        {
+          "role": "heading2",
+          "layout": "fullMarginAboveHalfBelowLayout",
+          "text": "HEADING"
+        },
+        {
+          "role": "body",
+          "format": "html",
+          "layout": "noMarginLayout",
+          "text": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio. Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."
+        },
+        {
+          "role": "heading2",
+          "layout": "fullMarginAboveHalfBelowLayout",
+          "text": "TWEET HEADING"
+        },
+        {
+          "role": "tweet",
+          "layout": "noMarginLayout",
+          "URL": "https://twitter.com/Urna_Semper/status/750424743417745408"
         }
       ]
-    },
-    {
-      "role": "heading2",
-      "layout": "fullMarginAboveHalfBelowLayout",
-      "text": "HEADING"
-    },
-    {
-      "role": "body",
-      "format": "html",
-      "layout": "noMarginLayout",
-      "text": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio. Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."
-    },
-    {
-      "role": "heading2",
-      "layout": "fullMarginAboveHalfBelowLayout",
-      "text": "TWEET HEADING"
-    },
-    {
-      "role": "tweet",
-      "layout": "noMarginLayout",
-      "URL": "https://twitter.com/Urna_Semper/status/750424743417745408"
     }
   ],
   "textStyles": {},
