@@ -39,22 +39,31 @@
           },
           "components": [
             {
-              "role": "heading1",
-              "layout": "heading1Layout",
-              "text": "HEADING"
-            },
-            {
-              "role": "divider",
-              "layout": "bigDividerLayout",
-              "stroke": {
-                "width": 3,
-                "color": "#D5B327"
-              }
-            },
-            {
-              "role": "title",
-              "layout": "halfMarginBelowLayout",
-              "text": "ARTICLE TITLE"
+              "role": "container",
+              "layout": "fullBleedLayout",
+              "anchor": {
+                "targetAnchorPosition": "bottom"
+              },
+              "components": [
+                {
+                  "role": "heading1",
+                  "layout": "heading1Layout",
+                  "text": "HEADING"
+                },
+                {
+                  "role": "divider",
+                  "layout": "bigDividerLayout",
+                  "stroke": {
+                    "width": 3,
+                    "color": "#D5B327"
+                  }
+                },
+                {
+                  "role": "title",
+                  "layout": "halfMarginBelowLayout",
+                  "text": "ARTICLE TITLE"
+                }
+              ]
             },
             {
               "role": "container",
