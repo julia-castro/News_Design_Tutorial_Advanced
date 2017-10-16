@@ -18,6 +18,24 @@
   },
   "components": [
     {
+      "role": "header",
+      "layout": "headerImageLayout",
+      "style": {
+        "fill": {
+          "type": "image",
+          "URL": "bundle://header.jpg",
+          "fillMode": "cover",
+          "verticalAlignment": "top",
+          "horizontalAlignment": "center"
+        }
+      }
+    },
+    {
+      "role": "caption",
+      "layout": "halfMarginBothLayout",
+      "text": "ABOVE: Sed ut pers piciatis unde omnis iste error sit volup tatem accusantium dolor emque, totam rem. (Attribution) "
+    },
+    {
       "role": "heading1",
       "layout": "heading1Layout",
       "text": "HEADING"
@@ -44,17 +62,6 @@
       "role": "byline",
       "layout": "fullMarginBelowLayout",
       "text": "By Urna Semper"
-    },
-    {
-      "role": "photo",
-      "layout": "fullBleedLayout",
-      "caption": "A caption for the photo.",
-      "URL": "bundle://header.jpg"
-    },
-    {
-      "role": "caption",
-      "layout": "halfMarginBothLayout",
-      "text": "ABOVE: A caption for the photo (Attribution)"
     },
     {
       "role": "divider",
@@ -271,6 +278,10 @@
   ],
   "textStyles": {},
   "componentLayouts": {
+    "headerImageLayout": {
+      "ignoreDocumentMargin": true,
+      "minimumHeight": "44vmax"
+    },
     "noMarginLayout": {
       "columnStart": 0,
       "columnSpan": 7
