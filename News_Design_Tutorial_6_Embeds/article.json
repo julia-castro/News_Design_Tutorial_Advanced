@@ -20,6 +20,10 @@
     {
       "role": "section",
       "layout": "fullBleedLayout",
+      "behavior": {
+        "type": "parallax",
+        "factor": 0.8
+      },
       "components": [
         {
           "role": "header",
