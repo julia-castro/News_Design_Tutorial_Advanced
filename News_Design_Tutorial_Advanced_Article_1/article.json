@@ -67,22 +67,6 @@
                   "text": "ARTICLE TITLE"
                 }
               ]
-            },
-            {
-              "role": "container",
-              "layout": "fullBleedLayout",
-              "style": "captionBarBackgroundStyle",
-              "anchor": {
-                "targetAnchorPosition": "bottom"
-              },
-              "components": [
-                {
-                  "role": "caption",
-                  "textStyle": "captionLight",
-                  "layout": "halfMarginBothLayout",
-                  "text": "ABOVE: Sed ut pers piciatis unde omnis iste error sit volup tatem accusantium dolor emque, totam rem. (Attribution)"
-                }
-              ]
             }
           ]
         }
@@ -112,6 +96,24 @@
           }
         },
         {
+          "role": "container",
+          "layout": "sideCaptionLayout",
+          "anchor": {
+            "targetComponentIdentifier": "body1",
+            "targetAnchorPosition": "top",
+            "originAnchorPosition": "top"
+          },
+          "components": [
+            {
+              "role": "caption",
+              "format": "html",
+              "layout": "fullBleedLayout",
+              "text": "ABOVE: Sed ut pers piciatis unde omnis iste error sit volup tatem accusa ntium dolor emque, totam rem. (Attribution)"
+            }
+          ]
+        },
+        {
+          "identifier": "body1",
           "role": "body",
           "format": "html",
           "layout": "noMarginLayout",
@@ -393,6 +395,13 @@
     "headerImageLayout": {
       "ignoreDocumentMargin": true,
       "minimumHeight": "44vmax"
+    },
+    "sideCaptionLayout": {
+      "columnStart": 7,
+      "columnSpan": 3,
+      "margin": {
+        "bottom": 24
+      }
     }
   },
   "componentStyles": {
