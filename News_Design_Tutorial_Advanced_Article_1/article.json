@@ -20,9 +20,9 @@
     {
       "role": "section",
       "layout": "fullBleedLayout",
-      "behavior": {
-        "type": "parallax",
-        "factor": 0.8
+      "scene": {
+        "type": "fading_sticky_header",
+        "fadeColor": "#000"
       },
       "components": [
         {
