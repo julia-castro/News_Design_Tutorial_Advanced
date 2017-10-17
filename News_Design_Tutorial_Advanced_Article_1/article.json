@@ -63,8 +63,9 @@
                 {
                   "role": "title",
                   "textStyle": "heading1Light",
+                  "format": "html",
                   "layout": "halfMarginBelowLayout",
-                  "text": "ARTICLE TITLE"
+                  "text": "<span data-anf-textstyle='lightGrayText'>ARTICLE TITLE</span> <span data-anf-textstyle='whiteText'>WITH INLINE TEXT STYLE REFERENCES</span>"
                 }
               ]
             }
@@ -85,7 +86,8 @@
         {
           "role": "byline",
           "layout": "fullMarginBelowLayout",
-          "text": "By Urna Semper"
+          "format": "html",
+          "text": "<span data-anf-textstyle='lightGrayText'>By</span> Urna Semper"
         },
         {
           "role": "divider",
@@ -108,7 +110,7 @@
               "role": "caption",
               "format": "html",
               "layout": "fullBleedLayout",
-              "text": "ABOVE: Sed ut pers piciatis unde omnis iste error sit volup tatem accusa ntium dolor emque, totam rem. (Attribution)"
+              "text": "<span data-anf-textstyle='DINText'>ABOVE:</span> Sed ut pers piciatis unde omnis iste error sit volup tatem accusa ntium dolor emque, totam rem. (Attribution)"
             }
           ]
         },
@@ -118,7 +120,7 @@
           "format": "html",
           "layout": "noMarginLayout",
           "textStyle": "bodyFirstDropCap",
-          "text": "<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, dolor repellendus. <a href='http://www.apple.com'>Link text</a> quibusdam et aut.</p><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, adipisci velit.</p>"
+          "text": "<p><span data-anf-textstyle='DINText'>Bold lead-in,</span> cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, dolor repellendus. <a href='http://www.apple.com'>Link text</a> quibusdam et aut.</p><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, adipisci velit.</p>"
         },
         {
           "role": "heading2",
@@ -144,10 +146,11 @@
               "role": "pullquote",
               "format": "html",
               "layout": "halfMarginAboveQuarterBelowContainedLayout",
-              "text": "“QUIA CONSEQUUNTUR MAGNI DOLORES EOS QUI RATIONE VOLUPTATEM SEQUI NESCIUNT.”"
+              "text": "“QUIA CONSEQUUNTUR MAGNI DOLORES EOS <span data-anf-textstyle='mediumGrayText'>QUI RATIONE VOLUPTATEM SEQUI NESCIUNT.”</span>"
             },
             {
               "role": "pullquote",
+              "format": "html",
               "layout": "halfMarginBelowContainedLayout",
               "textStyle": "attribution",
               "text": "— ATTRIBUTION"
@@ -191,7 +194,8 @@
         {
           "role": "caption",
           "layout": "halfMarginBothLayout",
-          "text": "ABOVE: A caption for the entire gallery. Individual photos in the gallery also have their own captions. (Shared attribution)"
+          "format": "html",
+          "text": "<span data-anf-textstyle='DINText'>ABOVE:</span> A caption for the entire gallery. Individual photos in the gallery also have their own captions. (Shared attribution)"
         },
         {
           "role": "divider",
@@ -241,7 +245,8 @@
         {
           "role": "caption",
           "layout": "halfMarginBothLayout",
-          "text": "ABOVE: A caption for the entire mosaic. Individual photos in the mosaic also have their own captions. (Shared attribution)"
+          "format": "html",
+          "text": "<span data-anf-textstyle='DINText'>ABOVE:</span> A caption for the entire mosaic. Individual photos in the mosaic also have their own captions. (Shared attribution)"
         },
         {
           "role": "divider",
@@ -276,7 +281,7 @@
               "role": "caption",
               "format": "html",
               "layout": "halfMarginBothContainedLayout",
-              "text": "ABOVE: A caption for the sidebar photo. (Attribution)"
+              "text": "<span data-anf-textstyle='DINText'>ABOVE:</span> A caption for the sidebar photo. (Attribution)"
             }
           ]
         },
@@ -335,6 +340,19 @@
     }
   ],
   "textStyles": {
+    "lightGrayText": {
+      "textColor": "#A6AAA9"
+    },
+    "whiteText": {
+      "textColor": "#FFF"
+    },
+    "DINText": {
+      "fontName": "DINAlternate-Bold",
+      "tracking": 0.01
+    },
+    "mediumGrayText": {
+      "textColor": "#53585F"
+    }
   },
   "componentLayouts": {
     "noMarginLayout": {
