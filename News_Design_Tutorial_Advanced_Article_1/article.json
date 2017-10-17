@@ -432,12 +432,10 @@
         "all": {
           "width": 1,
           "color": "#D5B327"
-        }
-      },
-      "top": true,
-      "right": false,
-      "bottom": true,
-      "left": false
+        },
+        "left": false,
+        "right": false
+      }
     }
   },
   "componentTextStyles": {
