@@ -146,7 +146,13 @@
               "role": "pullquote",
               "format": "html",
               "layout": "halfMarginAboveQuarterBelowContainedLayout",
-              "text": "“QUIA CONSEQUUNTUR MAGNI DOLORES EOS <span data-anf-textstyle='mediumGrayText'>QUI RATIONE VOLUPTATEM SEQUI NESCIUNT.”</span>"
+              "text": "“QUIA CONSEQUUNTUR MAGNI DOLORES EOS <span data-anf-textstyle='mediumGrayText'>QUI RATIONE VOLUPTATEM SEQUI NESCIUNT.”</span>",
+              "animation": {
+                "type": "scale_fade",
+                "userControllable": true,
+                "initialAlpha": 0.5,
+                "initialScale": 0.75
+              }
             },
             {
               "role": "pullquote",
@@ -176,6 +182,10 @@
         {
           "role": "gallery",
           "layout": "noMarginLayout",
+          "animation": {
+            "type": "move_in",
+            "preferredStartingPosition": "right"
+          },
           "items": [
             {
               "URL": "bundle://gallery-01.jpg",
@@ -275,7 +285,12 @@
               "role": "photo",
               "layout": "halfMarginAboveContainedLayout",
               "URL": "bundle://sidebar.jpg",
-              "caption": "A caption for the sidebar photo."
+              "caption": "A caption for the sidebar photo.",
+              "animation": {
+                "type": "fade_in",
+                "userControllable": true,
+                "initialAlpha": 0.5
+              }
             },
             {
               "role": "caption",
