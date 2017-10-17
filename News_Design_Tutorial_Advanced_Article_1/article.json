@@ -38,37 +38,6 @@
             }
           },
           "components": [
-            {
-              "role": "container",
-              "layout": "fullBleedLayout",
-              "style": "scrimBackgroundStyle",
-              "anchor": {
-                "targetAnchorPosition": "bottom"
-              },
-              "components": [
-                {
-                  "role": "heading1",
-                  "textStyle": "heading1Light",
-                  "layout": "heading1Layout",
-                  "text": "HEADING"
-                },
-                {
-                  "role": "divider",
-                  "layout": "bigDividerLayout",
-                  "stroke": {
-                    "width": 3,
-                    "color": "#D5B327"
-                  }
-                },
-                {
-                  "role": "title",
-                  "textStyle": "heading1Light",
-                  "format": "html",
-                  "layout": "halfMarginBelowLayout",
-                  "text": "<span data-anf-textstyle='lightGrayText'>ARTICLE TITLE</span> <span data-anf-textstyle='whiteText'>WITH INLINE TEXT STYLE REFERENCES</span>"
-                }
-              ]
-            }
           ]
         }
       ]
@@ -76,8 +45,27 @@
     {
       "role": "section",
       "layout": "fullBleedLayout",
-      "style": "bodyBackgroundStyle",
+      "style": "darkBackgroundStyle",
       "components": [
+        {
+          "role": "heading1",
+          "layout": "heading1Layout",
+          "text": "HEADING"
+        },
+        {
+          "role": "divider",
+          "layout": "bigDividerLayout",
+          "stroke": {
+            "width": 3,
+            "color": "#D5B327"
+          }
+        },
+        {
+          "role": "title",
+          "format": "html",
+          "layout": "halfMarginBelowLayout",
+          "text": "<span data-anf-textstyle='lightGrayText'>ARTICLE TITLE</span> <span data-anf-textstyle='whiteText'>WITH INLINE TEXT STYLE REFERENCES</span>"
+        },
         {
           "role": "intro",
           "layout": "halfMarginBothLayout",
@@ -110,6 +98,7 @@
               "role": "caption",
               "format": "html",
               "layout": "fullBleedLayout",
+              "textStyle": "captionLight",
               "text": "<span data-anf-textstyle='DINText'>ABOVE:</span> Sed ut pers piciatis unde omnis iste error sit volup tatem accusa ntium dolor emque, totam rem. (Attribution)"
             }
           ]
@@ -118,10 +107,17 @@
           "identifier": "body1",
           "role": "body",
           "format": "html",
-          "layout": "noMarginLayout",
-          "textStyle": "bodyFirstDropCap",
+          "layout": "fullMarginBelowLayout",
+          "textStyle": "bodyFirstDropCapDark",
           "text": "<p><span data-anf-textstyle='DINText'>Bold lead-in,</span> cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, dolor repellendus. <a href='http://www.apple.com'>Link text</a> quibusdam et aut.</p><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, adipisci velit.</p>"
-        },
+        }
+      ]
+    },
+    {
+      "role": "section",
+      "layout": "fullBleedLayout",
+      "style": "bodyBackgroundStyle",
+      "components": [
         {
           "role": "heading2",
           "layout": "fullMarginAboveHalfBelowLayout",
@@ -519,6 +515,9 @@
         "right": false,
         "left": false
       }
+    },
+    "darkBackgroundStyle": {
+      "backgroundColor": "#202020"
     }
   },
   "componentTextStyles": {
@@ -599,6 +598,14 @@
     },
     "heading1Light": {
       "textColor": "#FFF"
+    },
+    "bodyFirstDropCapDark": {
+      "textColor": "#FFF",
+      "dropCapStyle": {
+        "fontName": "DINAlternate-Bold",
+        "textColor": "#D5B327",
+        "numberOfLines": 2
+      }
     }
   }
 }
