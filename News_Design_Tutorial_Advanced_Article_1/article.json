@@ -18,27 +18,19 @@
   },
   "components": [
     {
-      "role": "section",
+      "role": "header",
       "layout": "fullBleedLayout",
-      "scene": {
-        "type": "fading_sticky_header",
-        "fadeColor": "#000"
+      "behavior": {
+        "type": "parallax",
+        "factor": 0.8
       },
       "components": [
         {
-          "role": "header",
-          "layout": "headerImageLayout",
-          "style": {
-            "fill": {
-              "type": "image",
-              "URL": "bundle://header.jpg",
-              "fillMode": "cover",
-              "verticalAlignment": "top",
-              "horizontalAlignment": "center"
-            }
-          },
-          "components": [
-          ]
+          "role": "video",
+          "layout": "fullBleedLayout",
+          "URL": "http://podcasts.apple.com/resources/462787156.mp4",
+          "stillURL": "bundle://video-still.jpg",
+          "accessibilityCaption": "Sed ut pers piciatis unde omnis iste natus volup tatem accusantium dolor emque, totam rem aperiam."
         }
       ]
     },
