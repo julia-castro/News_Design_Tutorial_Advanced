@@ -257,10 +257,34 @@
           "text": "HEADING"
         },
         {
+          "role": "container",
+          "layout": "smallImageLayout",
+          "style": "captionLockupStyle",
+          "anchor": {
+            "targetAnchorPosition": "center",
+            "originAnchorPosition": "center",
+            "target": "a1"
+          },
+          "components": [
+            {
+              "role": "photo",
+              "layout": "halfMarginAboveContainedLayout",
+              "URL": "bundle://sidebar.jpg",
+              "caption": "A caption for the sidebar photo."
+            },
+            {
+              "role": "caption",
+              "format": "html",
+              "layout": "halfMarginBothContainedLayout",
+              "text": "ABOVE: A caption for the sidebar photo. (Attribution)"
+            }
+          ]
+        },
+        {
           "role": "body",
           "format": "html",
           "layout": "noMarginLayout",
-          "text": "<p>Consequatur aut doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit volup tatem accusantium doloremque laudantium, totam rem, eaque ipsa quae ab illo inventore veritatis et quasi archit ecto beatae vitae.</p><p>Nemo enim ipsam volup tatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conse quuntur magni. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p><p>Consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit volup tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archit ecto beatae vitae dicta. Nemo enim ipsam volup tatem quia voluptas sit <a href='http://www.apple.com'>link text</a> aut odit aut fugit, sed quia conse quuntur perspiciatis doloribus magni dolores.</p><p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam suscipit laboriosam.</p>"
+          "text": "<p>Consequatur aut doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit volup tatem accusantium doloremque laudantium, totam rem, eaque ipsa quae ab illo inventore veritatis et quasi archit ecto beatae vitae.</p><p>Nemo enim ipsam volup tatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conse quuntur magni. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt <a id='a1' />ut labore et dolore aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p><p>Consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit volup tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archit ecto beatae vitae dicta. Nemo enim ipsam volup tatem quia voluptas sit <a href='http://www.apple.com'>link text</a> aut odit aut fugit, sed quia conse quuntur perspiciatis doloribus magni dolores.</p><p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam suscipit laboriosam.</p>"
         },
         {
           "role": "heading2",
@@ -405,6 +429,21 @@
       "margin": {
         "bottom": 12
       }
+    },
+    "smallImageLayout": {
+      "columnStart": 4,
+      "columnSpan": 3
+    },
+    "halfMarginAboveContainedLayout": {
+      "margin": {
+        "top": 12
+      }
+    },
+    "halfMarginBothContainedLayout": {
+      "margin": {
+        "top": 12,
+        "bottom": 12
+      }
     }
   },
   "componentStyles": {
@@ -435,6 +474,17 @@
         },
         "left": false,
         "right": false
+      }
+    },
+    "captionLockupStyle": {
+      "border": {
+        "all": {
+          "width": 1,
+          "color": "#D5B327"
+        },
+        "top": false,
+        "right": false,
+        "left": false
       }
     }
   },
